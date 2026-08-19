@@ -34,8 +34,8 @@ export default function HomePage() {
           Welcome Home
         </h1>
         <p className="mt-5 text-base md:text-lg text-pixel-brown/70 max-w-md mx-auto pixel-text leading-[2]">
-          记录每一个平凡却闪光的瞬间<br />
-          <span className="text-pixel-brown/50 text-sm">— 属于我们的 Playground —</span>
+          <br />
+          <span className="text-pixel-brown/50 text-sm">— Our Playground —</span>
         </p>
       </section>
 

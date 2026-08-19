@@ -160,7 +160,7 @@ export default function CountdownsPage() {
                 <span>📅</span> Days
               </h1>
               <p className="text-sm text-pixel-brown/60 pixel-text mt-1.5">
-                记录每一个重要的日子
+                
                 {countdowns.length > 0 && <span className="ml-2">· 共 {countdowns.length} 个</span>}
               </p>
             </div>

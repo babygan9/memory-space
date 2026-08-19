@@ -32,3 +32,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# gh CLI 本地配置（绕过沙盒写 ~/.config 的限制，含 token，勿提交）
+.gh-config/

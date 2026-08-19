@@ -64,8 +64,8 @@ export default function ThemeScene({ theme }: ThemeSceneProps) {
 
           {/* 角色名字 */}
           <div className="flex justify-center gap-16 md:gap-28 text-sm text-pixel-brown font-bold pixel-text mt-2">
-            <span>🐰 兔兔圆</span>
-            <span>🐹 萌仓</span>
+            <span>🐰 兔圆</span>
+            <span>🐹 小仓</span>
           </div>
         </div>
       </div>

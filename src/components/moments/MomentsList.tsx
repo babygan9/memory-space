@@ -48,7 +48,7 @@ export default function MomentsList() {
                 📝 Post
               </h1>
               <p className="text-sm text-pixel-brown/55 pixel-text mt-2 leading-relaxed">
-                记录今天发生的每一个小片段吧
+                
                 {!loading && moments.length > 0 && (
                   <span className="ml-2 text-pixel-pink/70">· 共 {moments.length} 条</span>
                 )}
