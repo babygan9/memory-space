@@ -34,7 +34,7 @@ export default function MembersPage() {
                 👥 About us
               </h1>
               <p className="text-sm text-pixel-brown/60 pixel-text mt-1.5">
-                这间小屋里的我们
+                
                 {!loading && members.length > 0 && (
                   <span className="ml-2">· 共 {members.length} 人</span>
                 )}
@@ -139,7 +139,7 @@ export default function MembersPage() {
                               boxShadow: "0 2px 6px rgba(255,107,157,0.35)",
                             }}
                           >
-                            小屋主理人
+                            圆兔の老公
                           </span>
                         )}
                       </div>
@@ -172,7 +172,7 @@ export default function MembersPage() {
               </div>
               <p className="text-pixel-brown/70 pixel-text mb-2 text-lg">还没有About us</p>
               <p className="text-sm text-pixel-brown/50 pixel-text">
-                邀请你的小伙伴加入这间小屋吧
+                
               </p>
             </div>
           )}

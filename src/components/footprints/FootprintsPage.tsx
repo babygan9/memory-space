@@ -90,7 +90,7 @@ export default function FootprintsPage() {
                   className="pixel-text text-sm mt-1.5"
                   style={{ color: "rgba(0,0,0,0.5)" }}
                 >
-                  我们一起走过的地方
+                  
                 </p>
               </div>
               <div className="flex gap-1">
@@ -134,7 +134,7 @@ export default function FootprintsPage() {
                 className="pixel-text text-sm mt-1.5"
                 style={{ color: "rgba(0,0,0,0.5)" }}
               >
-                我们一起走过的地方
+                
                 {totalProvinces > 0 && (
                   <span className="ml-2">· 共 {totalProvinces} / 33 个省份</span>
                 )}

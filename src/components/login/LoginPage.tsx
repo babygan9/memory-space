@@ -68,7 +68,7 @@ export default function LoginPage() {
           Playground
         </h1>
         <p className="text-pixel-brown/55 pixel-text text-sm leading-loose">
-          欢迎回来，请登录进入我们的数字空间 💫
+          Welcome back 💫
         </p>
       </div>
 

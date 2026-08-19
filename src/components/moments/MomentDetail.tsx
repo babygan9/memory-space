@@ -73,7 +73,7 @@ export default function MomentDetailClient({ id }: { id: string }) {
       setNewComment("");
       loadComments(true);
     } else {
-      alert("评论失败，请稍后重试");
+      alert("评论失败");
     }
 
     setSubmittingComment(false);

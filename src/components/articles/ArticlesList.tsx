@@ -52,7 +52,7 @@ export default function ArticlesList() {
                 📖 Letters
               </h1>
               <p className="text-sm text-pixel-brown/55 pixel-text mt-2 leading-relaxed">
-                This is for each other — 写给彼此的信
+                This is for each other
                 {!loading && articles.length > 0 && (
                   <span className="ml-2 text-pixel-yellow/70">· 共 {articles.length} 封</span>
                 )}
@@ -66,7 +66,7 @@ export default function ArticlesList() {
                 boxShadow: "0 4px 14px rgba(240,208,96,0.3)",
               }}
             >
-              ✉️ 写一封信
+              ✉️ Write
             </button>
           </div>
 
@@ -137,8 +137,8 @@ export default function ArticlesList() {
                 </div>
                 <p className="text-pixel-brown/75 pixel-text text-lg mb-2">还没有 Letter</p>
                 <p className="text-sm text-pixel-brown/50 pixel-text leading-relaxed mb-6">
-                  给 TA 写第一封信吧<br />
-                  有些话，适合写下来 ✉️
+                  <br />
+                  
                 </p>
                 <button
                   onClick={() => setShowCreateForm(true)}
